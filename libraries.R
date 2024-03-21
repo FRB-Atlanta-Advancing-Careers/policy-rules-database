@@ -42,6 +42,9 @@ if (!"yaml" %in% rownames(installed.packages())){install.packages("yaml")}
 #note: this library needs to be downloaded from github
 #devtools::install_github("UrbanInstitute/urbnmapr", force = TRUE)
 if (!"rstudioapi" %in% rownames(installed.packages())){install.packages("rstudioapi")}
+if (!"pivottabler" %in% rownames(installed.packages())){install.packages("pivottabler")}
+if (!"ggiraph" %in% rownames(installed.packages())){install.packages("ggiraph")}
+if (!"here" %in% rownames(installed.packages())){install.packages("here")}
 
 library(shiny)
 library(shinythemes)
